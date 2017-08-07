@@ -9,6 +9,9 @@
 > 
 >> docker 설치 및 mysql 로컬 서버 실행
 >> 콘솔: docker pull mysql
+>
 >> 콘솔: ./create_mysql_docker.sh
+>
 >> 만일,  제시작을 하실 경우 콘솔: ./restart_mysql_server.sh
+>
 >> 해당 pip 인스톨하기 콘솔: ./pip_install.sh
