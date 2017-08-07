@@ -4,7 +4,7 @@
 > 쉘 스크립트가 실행이 안될 경우 chmod 0700 [파일] 로 권한을 변경하시길 바랍니다.
 
 ### chapter.2 Blog Application 생성 및 DB연동
-##### 1) Django 앱 생성 명령어로 blog 어플리케이션을 생성한다.
+#### 1) Django 앱 생성 명령어로 blog 어플리케이션을 생성한다.
 > 콘솔 :  python ./manage.py startapp blog
 #### 2) blog 어플리케이션 DB Model 스키마 작성
 > 참조 : https://docs.djangoproject.com/en/1.11/topics/db/models/
