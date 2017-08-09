@@ -16,4 +16,4 @@ docker \
   --env MYSQL_DATABASE=${MYSQL_DATABASE} \
   --name ${MYSQL_CONTAINER_NAME} \
   --publish 3306:3306 \
-  mysql;
+  mysqldev:1;

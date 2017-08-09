@@ -1,0 +1,4 @@
+FROM mysql:latest
+VOLUME /opt/data:/var/lib/mysql
+ENV MYSQL_ROOT_PASSWORD 1q2w3e4r
+COPY ./mysql-custom.cnf /etc/mysql/conf.d/
