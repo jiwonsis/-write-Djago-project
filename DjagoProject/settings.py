@@ -83,9 +83,12 @@ DATABASES = {
         'USER': 'mysql_user',
         'PASSWORD': '1q2w3e4r',
         'HOST': '0.0.0.0',
-        'PORT': '3306'
+        'PORT': '3306',
     }
 }
+DATABASE_OPTIONS = {'charset': 'utf8-mb'}
+TIME_ZONE = 'Asia/Seoul'
+LANGUAGE_CODE = 'ko-kr'
 
 
 # Password validation
@@ -125,3 +128,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'XXXXX@gmail.com'
+EMAIL_HOST_PASSWORD = "XXXXX"
+EMAIL_PORT = 586
+EMAIL_USE_TLS = True

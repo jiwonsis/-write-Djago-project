@@ -8,4 +8,6 @@ urlpatterns = [
     # post 디테일 뷰 (/년(4)/월(2)/일(2)/포스트 슬러그명)
     url(r'^(?P<year>\d{4})/(?P<month>\d{2})/(?P<day>\d{2})/(?P<post>[-\w]+)/$',
         views.post_detail, name='post_detail'),
+    # post share 뷰
+    url(r'^(?P<post_id>\d+)/share/$', views.post_share, name='post_share')
 ]
