@@ -10,7 +10,7 @@
 >
 > MySQL5.7 버전을 사용합니다.
 >
-> Docker 어플리케이션을 사용하여 MySQL를 사용할 예정입니다.
+> Docker 어플리케이션을 사용하여 MySQL를 사용합니다.
 > 
 > MySQL DB 환경 설정은 다음과 같습니다.
 > > 테이블 케릭터셋 : utf8-mb4
@@ -44,6 +44,7 @@
 > 도커 설치 및 자세한 사항은 아래의 참조를 참고 하세요
 >
 > 참조 : https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html [도커 설치]
+>
 > 참조 : http://pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book [도커의 전반적인 내용을 다룬 도커 서적입니다]
 
 #### Django 프로젝트 세팅 
